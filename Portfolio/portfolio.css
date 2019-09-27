@@ -1,0 +1,78 @@
+body{
+  background-color: #cc2215;
+}
+
+.logo{
+  width: 200px;
+  position: absolute;
+  right: 260px;
+  bottom: 170px;
+
+}
+
+.text{
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.about{
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  text-align: center;
+
+  margin: 500px;
+  margin-top: 200px;
+
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+
+}
+
+h1{
+  margin-bottom: 5px;
+  margin-top: 0px;
+
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: -1.5px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+ padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: -1px;
+
+}
+
+a:hover{
+  color:white;
+
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
