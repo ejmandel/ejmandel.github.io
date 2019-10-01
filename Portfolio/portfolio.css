@@ -10,24 +10,45 @@ body{
 
 }
 
-.text{
-  font-family: monarcha, serif;
-  font-weight: 400;
-  font-style: normal;
-
+.videos{
+  padding: 0.5%;
 }
 
-.about{
+.design{
+  padding: 1.56%;
+}
+
+.grid{
   font-family: monarcha, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 35px;
+  font-size: 16px;
+  letter-spacing: -1.5px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: 220px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.me{
+  font-family: monarcha, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
   letter-spacing: -1.5px;
   text-align: center;
 
   margin: 500px;
-  margin-top: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -54,6 +75,7 @@ ul {
   list-style-type: none;
   margin: 0;
  padding: 0;
+
 }
 
 a {
