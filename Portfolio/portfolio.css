@@ -18,6 +18,9 @@ body{
   padding: 1.56%;
 }
 
+.design:hover{
+}
+
 .grid{
   font-family: monarcha, serif;
   font-weight: 400;
@@ -76,7 +79,7 @@ ul {
   margin: 0;
  padding: 0;
 
-}
+}html
 
 a {
   text-decoration: none;
@@ -87,7 +90,7 @@ a {
   font-style: normal;
   font-size: 16px;
   letter-spacing: -1px;
-
+  transition: 0.25s;
 }
 
 a:hover{

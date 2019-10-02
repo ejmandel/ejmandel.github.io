@@ -1,0 +1,21 @@
+body{
+  background-color: blue;
+}
+
+.text{
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  letter-spacing: -1px;
+}
+
+a{
+  color: white;
+  trasition: 0.5s;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
