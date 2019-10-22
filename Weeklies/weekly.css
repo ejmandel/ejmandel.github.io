@@ -1,0 +1,41 @@
+body {
+      animation: colorchange 1s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+.text{
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  letter-spacing: -1px;
+}
+
+a{
+  color: black;
+  trasition: 0.5s;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}

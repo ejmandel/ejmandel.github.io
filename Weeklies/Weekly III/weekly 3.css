@@ -1,0 +1,36 @@
+body {
+  background-color: #732622;
+
+}
+
+.paragraph{
+  color: #d1bd94;
+  font-family: palatino;
+  text-align: center;
+}
+
+.headers{
+  font-style: italic;
+  font-size: small;
+  padding: 20px;
+
+}
+
+.bodytextonly{
+  width: 500px;
+  height: 500px;
+  text-align: justify;
+  display: inline-block;
+}
+
+.photos{
+  position: absolute;
+  width: 800px;
+  top:200px;
+  right: 200px;
+}
+
+.photo1{
+  width: 100px;
+  height: auto;
+}
