@@ -1,0 +1,10 @@
+body {
+  background: red;
+}
+
+.text{
+font-family: monarcha, serif;
+font-weight: 300;
+font-style: italic;
+font-size: 80px;
+}
