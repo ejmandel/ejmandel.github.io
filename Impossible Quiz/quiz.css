@@ -1,0 +1,44 @@
+body{
+  background-color: #0033cc;
+}
+
+#enterbutton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  display: inline-block;
+
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+}
+
+
+#homelogo{
+  width: 40%;
+  padding-top: 7%;
+  display: inline-block;
+
+}
+
+.wrap{
+  text-align: center
+}
+
+img:hover{
+  transform: rotateZ(360deg);
+  transition-duration: 5s;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  transition-duration: 0.5s;
+}
