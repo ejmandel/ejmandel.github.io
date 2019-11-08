@@ -13,13 +13,28 @@ body{
   font-family: bd-geminis, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 300%;
+  font-size: 3vw;
+}
+
+#me{
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75vw;
+  color: red;
+
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
 }
 
 
-#homelogo{
+.homelogo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 40%;
-  padding-top: 7%;
   display: inline-block;
 
 }
@@ -28,17 +43,46 @@ body{
   text-align: center
 }
 
-img:hover{
-  transform: rotateZ(360deg);
-  transition-duration: 5s;
+.questions{
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vw;
+  color: red;
+  display: inline;
+}
+
+.text{
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: red;
+
+}
+.homelogo img{
+  /* transition-duration: 5s; */
+  transform: rotateZ(0deg);
+  animation-name: rotation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+animation-timing-function: linear;
+
+}
+
+@keyframes rotation {
+  from {transform: rotateZ(0deg);}
+  to {transform: rotateZ(360deg);}
 }
 
 a{
   color: red;
   text-decoration: none;
+  transition: font-size 1s;
 }
 
 a:hover{
   color: white;
   transition-duration: 0.5s;
+  font-size: 120%;
 }
