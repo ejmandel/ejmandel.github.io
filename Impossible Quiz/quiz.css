@@ -15,7 +15,6 @@ body{
   font-style: normal;
   font-size: 3vw;
 }
-
 #me{
   font-family: bd-geminis, sans-serif;
   font-weight: 400;
@@ -27,7 +26,18 @@ body{
   bottom: 2%;
   right: 2%;
 }
+#lives{
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+  color: red;
 
+  position: fixed;
+  bottom: 0%;
+  right: 2%;
+
+}
 
 .homelogo{
   position: absolute;
@@ -36,7 +46,6 @@ body{
   transform: translate(-50%, -50%);
   width: 40%;
   display: inline-block;
-
 }
 
 .wrap{
@@ -52,6 +61,36 @@ body{
   display: inline;
 }
 
+.dead{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  display: inline-block;
+  text-align: center;
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: red;
+}
+
+.finalscreen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  display: inline-block;
+  text-align: center;
+  font-family: bd-geminis, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: red;
+}
+
 .text{
   font-family: bd-geminis, sans-serif;
   font-weight: 400;
@@ -60,11 +99,12 @@ body{
   color: red;
 
 }
+
 .homelogo img{
   /* transition-duration: 5s; */
   transform: rotateZ(0deg);
   animation-name: rotation;
-  animation-duration: 4s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 animation-timing-function: linear;
 
@@ -84,5 +124,14 @@ a{
 a:hover{
   color: white;
   transition-duration: 0.5s;
-  font-size: 120%;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+a#choice2A{
+  color: #0033cc;
+}
+
+a#choice2A:hover{
+  color: red;
 }
