@@ -1,4 +1,11 @@
+$(".flash").hide();
+
+
 $(document).ready(function(){
+
+  $(".flash").css("width", "100vw");
+  $(".flash").css("height", "100vw");
+
 
 function blink(){
   $(".homelogo")
@@ -15,6 +22,7 @@ $(".dead").hide();
 $(".finalscreen").hide();
 
 $("#choice1A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -25,6 +33,7 @@ $("#choice1A").click(function (){
 });
 
 $("#choice1C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -35,6 +44,7 @@ $("#choice1C").click(function (){
 });
 
 $("#choice1D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -57,6 +67,7 @@ $("#choice2A").click(function (){
 });
 
 $("#choice3A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -67,6 +78,7 @@ $("#choice3A").click(function (){
 });
 
 $("#choice3C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -77,6 +89,7 @@ $("#choice3C").click(function (){
 });
 
 $("#choice3D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -93,6 +106,7 @@ $("#choice3B").click(function (){
 });
 
 $("#choice4A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -103,6 +117,7 @@ $("#choice4A").click(function (){
 });
 
 $("#choice4B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -113,6 +128,7 @@ $("#choice4B").click(function (){
 });
 
 $("#choice4D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -129,6 +145,7 @@ $("#choice4C").click(function (){
 });
 
 $("#choice5A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -139,6 +156,7 @@ $("#choice5A").click(function (){
 });
 
 $("#choice5B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -149,6 +167,7 @@ $("#choice5B").click(function (){
 });
 
 $("#choice5D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -165,6 +184,7 @@ $("#choice5C").click(function (){
 });
 
 $("#choice6C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -175,6 +195,7 @@ $("#choice6C").click(function (){
 });
 
 $("#choice6B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -185,6 +206,7 @@ $("#choice6B").click(function (){
 });
 
 $("#choice6D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -201,6 +223,7 @@ $("#choice6A").click(function (){
 });
 
 $("#choice7C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -211,6 +234,7 @@ $("#choice7C").click(function (){
 });
 
 $("#choice7B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -221,6 +245,7 @@ $("#choice7B").click(function (){
 });
 
 $("#choice7A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -237,6 +262,7 @@ $("#choice7D").click(function (){
 });
 
 $("#choice8C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -247,6 +273,7 @@ $("#choice8C").click(function (){
 });
 
 $("#choice8B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -257,6 +284,7 @@ $("#choice8B").click(function (){
 });
 
 $("#choice8D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -273,6 +301,7 @@ $("#choice8A").click(function (){
 });
 
 $("#choice9C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -283,6 +312,7 @@ $("#choice9C").click(function (){
 });
 
 $("#choice9B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -293,6 +323,7 @@ $("#choice9B").click(function (){
 });
 
 $("#choice9D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -309,6 +340,7 @@ $("#choice9A").click(function (){
 });
 
 $("#choice10C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -319,6 +351,7 @@ $("#choice10C").click(function (){
 });
 
 $("#choice10A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -342,6 +375,7 @@ $("#choice10B").click(function (){
 });
 
 $("#choice11C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -352,6 +386,7 @@ $("#choice11C").click(function (){
 });
 
 $("#choice11B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -362,6 +397,7 @@ $("#choice11B").click(function (){
 });
 
 $("#choice11A").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -378,6 +414,7 @@ $("#choice11D").click(function (){
 });
 
 $("#choice12C").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -387,7 +424,23 @@ $("#choice12C").click(function (){
   }
 });
 
+$(".flash").hide();
+
+function flashRed(){
+  $(".flash").show();
+  setTimeout(function () {
+    $(".flash").css("opacity", "0");
+    setTimeout(function () {
+      $(".flash").hide();
+      $(".flash").css("opacity", "1");
+
+    }, 500);
+  }, 100);
+  console.log("flash");
+}
+
 $("#choice12B").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){
@@ -398,6 +451,7 @@ $("#choice12B").click(function (){
 });
 
 $("#choice12D").click(function (){
+  flashRed();
   lives = lives - 1;
   $("#lives").html("lives: " + lives);
   if(lives == 0 ){

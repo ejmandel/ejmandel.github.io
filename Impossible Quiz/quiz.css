@@ -1,5 +1,6 @@
 body{
   background-color: #0033cc;
+  margin: 0;
 }
 
 #enterbutton{
@@ -37,6 +38,14 @@ body{
   bottom: 0%;
   right: 2%;
 
+}
+
+.flash{
+  width: 0vw;
+  height: 0vh;
+  background: red;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .homelogo{
