@@ -1,0 +1,38 @@
+body{
+    background-image: url(pink.gif);
+    background-size: cover;
+
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.heading{
+  font-family: giulia, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 10vw;
+  text-align: center;
+  color: yellow;
+
+}
+
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 25%;
+}
+
+a{
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  transition-duration: 0.3s;
+}
